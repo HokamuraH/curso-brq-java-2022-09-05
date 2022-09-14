@@ -3,3 +3,7 @@
 // Segunda Modificação   
     
 // Alteração pela interface web
+
+GIT FLOW:
+1 - Sempre deixar o código de produção na branch master
+2 - sempre criar uma branch a partir da "branch de desenvolvimento"
