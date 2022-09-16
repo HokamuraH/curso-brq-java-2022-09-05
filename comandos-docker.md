@@ -35,5 +35,24 @@ Obs.: O container deve estar parado!!!!
     docker rm practical_rosalind
 ...
 
+# eu posso estipular o nome de um container
+
+Obs.: exemplo na criação de um container
+...
+    docker run --name NOMEDOONTAINERDESEJO NOMEDAIMAGEM
+    docker run --name hello-world  docker/getting-started
+...
+
+# redirecionar a requisição da máquina hospedeira para um container docker
+
+Obs: exemplo na criação do container
+
+
+```
+    docker run  --name NOMEDOCONTAINERDESEJO -p PORTA-HOSPEDEIRO:PORTA-CONTAINER  NOMEDAIMAGEM
+    Ex: docker run --name hello-world -p 80:80  docker/getting-started
+```
+
+
 Branch do Fabrizio
 https://github.com/ffborelli/curso-brq-java-2022-09-05
