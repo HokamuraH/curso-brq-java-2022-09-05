@@ -53,6 +53,17 @@ Obs: exemplo na criação do container
     Ex: docker run --name hello-world -p 80:80  docker/getting-started
 ```
 
+# Como podemos acessar o terminal de um container?
+
+Obs.: o container deve estar em execução
+
+...
+    docker exec -it NOMEDOCONTAINER /bin/bash
+
+    /bin/bash  é o comando que vammos executar quando ao entrar no container
+    -it --> 'modo interativo'
+
+    Ex.: docker exec -it hello-word /bin/bash
 
 Branch do Fabrizio
 https://github.com/ffborelli/curso-brq-java-2022-09-05
