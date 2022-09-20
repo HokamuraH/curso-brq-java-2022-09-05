@@ -58,7 +58,8 @@ Obs: exemplo na criação do container
 Obs.: o container deve estar em execução
 
 ...
-    docker exec -it NOMEDOCONTAINER /bin/bash
+    docker exec -it NOMEDOCONTAINER /bin/bash ou 
+    docker exec -it NOMEDOCONTAINER /bin/sh
 
     /bin/bash  é o comando que vammos executar quando ao entrar no container
     -it --> 'modo interativo'
