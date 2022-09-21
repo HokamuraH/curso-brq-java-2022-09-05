@@ -98,14 +98,15 @@ Para sair do container, digite: exit
 # Como podemos fazer para ao deletar um container, não perdermos dados do mesmo?
 
 Resp: usando o conceito de volume
-
+    ${PWD} retorna o endereço de onde estamos
 ```
     docker run -v PASTA_DO_HOSPEDEIRO:PASTA_DO_CONTAINER
 
     docker rm hello-world
     
-    docker run --name hello-world -p 80:80 -p 8000:80 -v meu-volume:/meu-volume-container docker/getting-started
+    docker run --name hello-world -p 80:80 -p 8000:80 -v ${PWD}/meu-volume:/meu-volume-container docker/getting-started
 ```
+
 
 Branch do Fabrizio
 https://github.com/ffborelli/curso-brq-java-2022-09-05
