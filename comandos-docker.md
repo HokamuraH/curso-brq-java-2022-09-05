@@ -66,5 +66,16 @@ Obs.: o container deve estar em execução
 
     Ex.: docker exec -it hello-word /bin/bash
 
+# Comandos Linux
+...
+    ls   --> listar arquivos e pasta no Linux
+    cd   --> entrar dentro de uma pasta
+    pwd  --> mostrar em qual diretório nos estamos
+    cd .. -> voltarr um nível no sistema de diretórios
+    cd / --> voltar para o diretorio raiz
+    mkdir -> criando uma pasta 
+    touch -> criar um arquivo vazio
+...
+
 Branch do Fabrizio
 https://github.com/ffborelli/curso-brq-java-2022-09-05
