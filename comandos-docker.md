@@ -77,5 +77,23 @@ Obs.: o container deve estar em execução
     touch -> criar um arquivo vazio
 ...
 
+# dentro do container, iremos criar uma pasta
+...
+    mkdir pasta1
+Para sair do container, digite: exit
+...
+
+# Removendo o container para verificar o que acontece com o seu conteúdo
+...
+    docker stop hello-word
+    docker rm hello-word
+...
+
+# Subindo um novo container da mesma imagem
+...
+    docker run --name hello-world -p 80:80 -p 8000:80  docker/getting-started
+    docker exec -it hello-world /bin/sh
+...
+
 Branch do Fabrizio
 https://github.com/ffborelli/curso-brq-java-2022-09-05
